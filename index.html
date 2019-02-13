@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Giraffe Quiz App</title>
+    <meta name="description" content="Test your Giraffe knowledge">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+
+  </head>
+  <body>
+    <header role="banner">
+        <div class ="logo-col">
+        <a href="index.html">
+          <img class="logo" src="https://i.imgur.com/FbxBPnQ.png" alt="giraffe logo"/>
+        </a> 
+        </div>
+        <div class = "questionCount-score-col">
+          <ul>
+            <li> Question: <span class="questionCount">0</span>/10</li> 
+            <li>Score: <span class="score">0</span></li>
+            </ul>
+          </div>
+    </header>
+    <main role="main">
+      <div class="quizBegins js-quiz-begins">
+        <h1>Are You A Giraffe Expert?</h1>
+        <h3>Find out to show off your knowledge</h3>
+        <button type="button" class="startButton">Ready?</button>
+      </div>
+      <div class="questionAnswerForm  js-question-answer-form"></div>
+      </main>
+        <script
+ src="https://code.jquery.com/jquery-3.3.1.js"
+ integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ crossorigin="anonymous"></script>
+ <script src="datastore.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
